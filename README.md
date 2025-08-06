@@ -9,7 +9,7 @@
 
 ![Cauca](cauca.png)
 
-This is a fork of Causal Component Analysis (Liang et al, 2023) that focuses on causal component analysis for transcriptional regulatory networks and large scRNAseq + CRISPR pertubation experiments.
+This is a fork of Causal Component Analysis (Liang et al, 2023) that focuses on causal component analysis for transcriptional regulatory networks and large scRNAseq + CRISPR perturbation experiments.
 
 ## Overview
 _Causal Component Analysis_ is a project that bridges the gap between Independent Component Analysis (ICA) and Causal Representation Learning (CRL).
