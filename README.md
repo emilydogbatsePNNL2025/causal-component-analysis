@@ -8,6 +8,9 @@
 
 
 ![Cauca](cauca.png)
+
+This is a fork of Causal Component Analysis (Liang et al, 2023) that focuses on causal component analysis for transcriptional regulatory networks and large scRNAseq + CRISPR perturbation experiments.
+
 ## Overview
 _Causal Component Analysis_ is a project that bridges the gap between Independent Component Analysis (ICA) and Causal Representation Learning (CRL).
 This project includes implementations and experiments related to the papers:
@@ -25,12 +28,31 @@ This project includes implementations and experiments related to the papers:
 ## Installation
 Clone the repository
 ```bash
-git clone git@github.com:akekic/causal-component-analysis.git
+git clone https://github.com/CRISPR-CARB/causal-component-analysis.git
 ```
-and install the package
+
+Change the working directory
+```
+cd causal-component-analysis
+```
+
+Create a virtual environment using [UV](https://docs.astral.sh/uv/guides/install-python/)
 ```bash
-pip install -e .
+uv venv
 ```
+
+
+Sync your environment with the project dependencies
+```bash
+uv sync
+```
+
+Activate the virtual environment
+```bash
+source .venv/bin/activate
+```
+
+
 
 
 
